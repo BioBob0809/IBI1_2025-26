@@ -1,5 +1,15 @@
+实验心得
 先添加路径，再git init添加.git 
 在git add之前要先按“ctrl+s”将修改保存
 git status可以查看现在所处的分支，有没有文件保存在index中
 如果将branch1 merge在master之中，要在master中打“git merge branch1”
 git push 可以将本地文件上传至GitHub网站中
+
+实验是否顺利：
+非常不顺利，最开始还不知道什么是GitHub，好多代码也不知道什么意思，只有不断问AI 才勉强可以知道一步一步该怎么操作，进度非常慢
+
+哪些地方有挑战性：
+经常报错不知道哪里除了问题,问AI 有时也诊断不了
+
+还有什么疑问：
+git tap含义还不是很理解，对VS code的作用原理还不是很理解
