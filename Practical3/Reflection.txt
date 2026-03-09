@@ -1,0 +1,5 @@
+先添加路径，再git init添加.git 
+在git add之前要先按“ctrl+s”将修改保存
+git status可以查看现在所处的分支，有没有文件保存在index中
+如果将branch1 merge在master之中，要在master中打“git merge branch1”
+git push 可以将本地文件上传至GitHub网站中
