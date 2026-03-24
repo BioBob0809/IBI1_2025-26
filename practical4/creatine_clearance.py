@@ -1,18 +1,41 @@
-age = int (input("请输入您的年龄（岁）："))
-weight = int(input ("请输入您的体重（千克）："))
-gender = input("请输入您的性别：")
-concentration = int(input ("请输入您的Cr的浓度（μmol/l）："))
-if age < 100 and 20 < weight < 80 and 0 < concentration < 100 and gender == "男" or gender == "女":
-    if gender == "男":
+# --------------------------
+# PSEUDOCODE (as comments)
+# --------------------------
+# 1. Get user input:
+#    - age (in years): integer
+#    - weight (in kg): integer
+#    - gender: string ("male" or "female")
+#    - concentration (µmol/l): integer
+# 2. Validate input ranges:
+#    - age < 100
+#    - 20 < weight < 80
+#    - 0 < concentration < 100
+#    - gender is either "male" or "female"
+# 3. If all inputs are valid:
+#    a. Calculate CrCl using Cockcroft-Gault equation:
+#       - For male: CrCl = ((140 - age) * weight) / (72 * concentration)
+#       - For female: CrCl = ((140 - age) * weight * 0.85) / (72 * concentration)
+#    b. Print the calculated CrCl value
+# 4. If any input is invalid:
+#    a. Print an error message indicating which input is out of range
+
+age = int(input("Please enter your age (years): "))
+weight = int(input("Please enter your weight (kg): "))
+gender = input("Please enter your gender (male/female): ")
+concentration = int(input("Please enter your Cr concentration (µmol/l): "))
+if age < 100 and 20 < weight < 80 and 0 < concentration < 100 and gender == "male" or gender == "female":
+    if gender == "male":
         CrCl = ((140-age)*weight)/(72*concentration)
     else:
         CrCl = ((140-age)*weight*0.85)/(72*concentration) 
-    print (f"您的creatine clearance rate为{CrCl}")
+    print (f"Your creatine clearance rate is{CrCl}")
 else:
-    print ("抱歉，您输入的数据不达标，不能计算creatine clearance rate")
+    print ("Sorry, your input data is invalid. Cannot calculate creatine clearance rate.")
 
-# 请输入您的年龄（岁）：18
-# 请输入您的体重（千克）：70
-# 请输入您的性别：男 
-# 请输入您的Cr的浓度（μmol/l）：50
-# 您的creatine clearance rate为2.3722222222222222
+# RESULT
+# Please enter your age (years): 18
+# Please enter your weight (kg): 70
+# Please enter your gender (male/female): male
+# Please enter your Cr concentration (µmol/l): 80
+# Your creatine clearance rate is1.4826388888888888
+

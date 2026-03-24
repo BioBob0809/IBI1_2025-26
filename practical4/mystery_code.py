@@ -1,5 +1,5 @@
 # What does this piece of code do?
-# Answer:the sum of 11 numbers randomly chosen from 1 to 9
+# Answer:the sum of 11 numbers randomly chosen from 1 to 10
 
 # Import libraries
 # randint allows drawing a random number,

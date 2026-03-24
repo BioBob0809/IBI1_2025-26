@@ -3,19 +3,19 @@ b=5330000
 c=5550000
 d=b-a
 e=c-b
-print ("d=",d)
-print ("e=",e)
+print ("The population change from 2004 to 2014 d=",d,"million")
+print ("The population change from 2014 to 2024 e=",e,"million")
 if d > e:
-    print ("decelatating")
+    print ("Population growth is decelatating")
 else:
-    print  ("accelerating")
-# d= 250000
-# e= 220000
-# decelatating   
+    print  ("Population growth is accelerating")
+# The population change from 2004 to 2014 d= 250000 million
+# The population change from 2014 to 2024 e= 220000 million
+# Population growth is decelatating
 
 X = True
 Y = False
 W = X or Y
-print ("W的Booleans是",W)
-# W的Booleans是 True
+print ("The Boolean type of W is",W)
+# The Boolean type of W is True
 
