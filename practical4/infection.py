@@ -39,3 +39,18 @@ while infected < total_students:
 print(f"{day:3} | {infected}")
 
 print(f"\nIt took {day} days for all {total_students} students to become infected.")
+# result:
+# Day | Number of infected students
+# -------------------------------
+#   1 | 5
+#   2 | 7
+#   3 | 10
+#   4 | 14
+#   5 | 20
+#   6 | 28
+#   7 | 39
+#   8 | 55
+#   9 | 77
+#  10 | 91
+
+# It took 10 days for all 91 students to become infected.
