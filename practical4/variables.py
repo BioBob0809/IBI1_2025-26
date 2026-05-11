@@ -19,3 +19,9 @@ W = X or Y
 print ("The Boolean type of W is",W)
 # The Boolean type of W is True
 
+# Truth table for X OR Y
+# X     | Y     | X or Y
+# True  | True  | True
+# True  | False | True
+# False | True  | True
+# False | False | False
