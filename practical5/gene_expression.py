@@ -22,10 +22,10 @@ plt.yticks(np.arange(0,21,2))
 plt.tight_layout()
 plt.show()
 
-gene_interest = input('请输入你想查询的基因：')
+gene_interest = input('please enter the gene name that tou want to search:')
 if gene_interest in genes:
     print (f"\nGene {gene_interest} expression: {gene_expression[gene_interest]}") 
 else:
-    print ("抱歉，你感兴趣的基因不在列表里")
+    print ("sorry, the gene that you are interested in is not in the list")
 average_expression = sum(expressions) / len(expressions)
 print(f"\nAverage gene expression level: {average_expression:.2f}")  
