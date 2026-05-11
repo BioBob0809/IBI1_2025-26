@@ -22,7 +22,7 @@ plt.yticks(np.arange(0,21,2))
 plt.tight_layout()
 plt.show()
 
-gene_interest = input('please enter the gene name that tou want to search:')
+gene_interest = input('please enter the gene name that tou   want to search:')
 if gene_interest in genes:
     print (f"\nGene {gene_interest} expression: {gene_expression[gene_interest]}") 
 else:
