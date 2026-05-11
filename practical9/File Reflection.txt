@@ -1,0 +1,11 @@
+Reflection on Practical 9
+
+This practical was a good introduction to both stochastic and spatial modeling in epidemiology.
+
+The first SIR model was straightforward to implement, and it helped me understand the basic dynamics of disease spread, including the role of infection rate (beta) and recovery rate (gamma). The vaccination extension was more interesting; it showed clearly how herd immunity can slow or stop an outbreak, and I could estimate the threshold from the plot.
+
+The 2D spatial model was the most challenging part. It required thinking about how to handle neighbors and avoid overwriting the grid during updates. The helper function for getting neighbors and using a copy of the grid each step solved these problems. Seeing the disease spread from a single point to its neighbors was a very visual way to understand spatial effects.
+
+I learned that modeling requires careful handling of randomness and state updates, especially when working with grids. The key takeaway is that even simple rules (like infecting neighbors with a certain probability) can produce complex, realistic patterns.
+
+Overall, I enjoyed the spatial model the most, as it made the abstract concept of disease spread much more concrete.
