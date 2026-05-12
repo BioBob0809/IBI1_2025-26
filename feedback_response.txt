@@ -1,0 +1,81 @@
+# Feedback Response to Formative Assessment
+# IBI1 2025-26
+# GitHub ID: BioBob0809
+
+This document describes all changes made in response to the formative feedback, with details of edited scripts and the specific issues resolved. All changes have been pushed to my GitHub repository.
+
+---
+
+## 1. Week 3 / Practical 3
+### Issue Resolved
+- Deducted 1 mark: `It contains things the student likes` scored 0/1, feedback: `You should edit in the original file.`
+
+### Edited File
+`Practical3/thingsIlike.txt`
+
+### Changes Made
+1.  Edited the **original `thingsIlike.txt` file directly** (instead of using a copy file), replacing the template content with 10 personal preference items that meet the assignment requirements.
+2.  Committed the modified original file with a clear commit message, ensuring the edit history is visible in the repository.
+3.  Verified the file is stored in the correct `Practical3/` directory, matching the assignment structure.
+
+---
+
+## 2. Week 4 / Practical 4
+### Issue 1 Resolved
+- Deducted 1 mark: Boolean logic task scored 2/3, feedback: `No truth table.`
+
+#### Edited File
+`Practical4/variables.py`
+
+#### Changes Made
+1.  Added a **complete truth table for `W = X or Y`** as code comments, covering all 4 possible combinations of X and Y values, which fully meets the assignment requirement.
+2.  Retained the original correct boolean variable definitions and logic, with additional comments linking the truth table to the code implementation.
+3.  Ensured the code is well-documented and easy to follow.
+
+---
+
+### Issue 2 Resolved
+- Deducted 2 marks: Infection growth script scored 1/3, feedback: Script does not correctly display increasing number of infected individuals.
+
+#### Edited File
+`Practical4/infection.py`
+
+#### Changes Made
+1.  Rewrote the core loop logic strictly following the provided pseudocode, ensuring the script correctly calculates and prints the **daily increasing number of infected students** starting from the initial 5 cases.
+2.  Fixed the loop condition and output order, ensuring the first day's infection count is printed correctly, and subsequent days show the expected 40% growth rate.
+3.  Added a clear tabular output format with headers, making the daily infection data easy to read and verify.
+4.  Implemented correct rounding and population capping logic, ensuring the infection count never exceeds the total class size of 91.
+
+---
+
+### Issue 3 Resolved
+- Deducted 2 marks: Creatinine clearance calculation scored 1/3, feedback: `Logical error in validation condition (operator precedence issue) and error messages are not specific enough.`
+
+#### Edited File
+`Practical4/creatine_clearance.py`
+
+#### Changes Made
+1.  **Fixed the operator precedence logical error** in input validation: replaced the complex combined `and/or` condition with individual validation checks for each input variable, ensuring the validation logic is 100% correct.
+2.  Added **specific error messages** for each invalid input: when an input is out of range, the script clearly states which variable is invalid and what the valid range is, instead of a generic error message.
+3.  Retained the correct Cockcroft-Gault calculation formula for both male and female patients, ensuring the calculation results are accurate.
+4.  Added detailed code comments explaining each validation step and the calculation logic, meeting the documentation requirements.
+
+---
+
+## 3. Week 5 / Practical 5
+### Issue Resolved
+- Deducted 1 mark: Gene expression analysis task scored 23/24, feedback: `Error message is not in English' in gene_expression.py`
+
+### Edited File
+`Practical5/gene_expression.py`
+
+### Changes Made
+1.  **Replaced all Chinese content in the script with standard English**, including all code comments, print output messages, and variable naming annotations, ensuring the entire codebase follows the English-only requirement for the assignment.
+2.  Retained the complete and correct core logic of the gene expression analysis script, including data loading, differential expression calculation, statistical testing, and result output functions, with no changes to the scientific calculation workflow.
+3.  Optimized the English comments to be clear, concise, and consistent with academic coding standards, making the code logic easy to understand and verify.
+4.  Verified the script runs without errors after modification, and all output results are consistent with the original correct calculation results.
+
+---
+
+## Final Note
+All modified files have been committed and pushed to my GitHub repository, with clear commit messages describing each change. I have verified all files are stored in the correct directories and fully meet the assignment requirements.
